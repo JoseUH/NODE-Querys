@@ -1,0 +1,22 @@
+{
+  "name": "nueva-carpeta",
+  "version": "1.0.0",
+  "description": "en este proyecto veremos un repaso",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": " nodemon index.js",
+    "seed": "node ./src/utils/seeds/videogames.seed.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^7.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
